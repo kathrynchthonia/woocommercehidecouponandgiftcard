@@ -18,8 +18,9 @@ const hideCouponForm = (items) => {
     }
   }
   if (onlyDonation == true) {
-    document.getElementsByClassName('coupon')[0].classList.add('hide')
-    document.getElementById('pwgc-redeem-gift-card-form').classList.add('hide')
+    console.log('onlyDonation', onlyDonation)
+    console.log('pwgc-redeem-gift-card-form', document.getElementById('pwgc-redeem-gift-card-form'))
+    //document.getElementById('pwgc-redeem-gift-card-form').classList.add('hide')
   }
 
 }
